@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>colors</title>
+</head>
+<body>
+<h1 style="color:#000000">Colors!</h1>
+<p>
+    {% for color in all_colors %}
+    <h1 style="color:{{ color }}; font-size:52px; margin-block-start:0; margin-block-end:0">■</h1>
+    <p>{{ color }}</p>
+    {% endfor %}
+</p>
+</body>
+</html>
